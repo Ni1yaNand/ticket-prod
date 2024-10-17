@@ -128,7 +128,7 @@ const TicketForm = ({ticket}: Props) => {
                     </Button>
                 </form>
             </Form>
-            {error && <p className="text-red-500 mt-2">{error}</p>}
+            <p className='text-destructive'>{error}</p>
         </div>
     );
 };

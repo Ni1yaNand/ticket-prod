@@ -1,4 +1,3 @@
-
 "use client"  
 
 import React, { useState } from 'react'
@@ -28,7 +27,7 @@ const DeleteButton = ({ ticketId }: { ticketId: number }) => {
             await axios.delete("/api/tickets/" + ticketId);
             router.push("/tickets"); 
             router.refresh();  
-        } catch (error) {
+        } catch {
             setIsDeleting(false)
             setError("Unknown Error Occurred.");
         }

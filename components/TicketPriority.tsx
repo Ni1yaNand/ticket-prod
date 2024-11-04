@@ -1,5 +1,5 @@
 import { Priority } from '@prisma/client'
-import { Flame, Proportions } from 'lucide-react'
+import { Flame } from 'lucide-react'
 import React from 'react'
 
 interface Props {

@@ -1,7 +1,6 @@
 import prisma from  "@/prisma/db";
 import { userSchema } from "@/ValidationSchemas/users";
 import bcrypt from "bcryptjs";
-import { error } from "console";
 import { NextRequest, NextResponse } from "next/server";
 
 interface Props {
